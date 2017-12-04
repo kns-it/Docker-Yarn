@@ -16,7 +16,7 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.schema-version="1.0" \
       maintainer="sebastian.kurfer@kns-it.de"
 
-RUN apk add --update --no-cache nodejs \
+RUN apk add --update --no-cache nodejs-current \
 				yarn && \
     adduser -h /home/yarn -s /bin/sh -D yarn
 
