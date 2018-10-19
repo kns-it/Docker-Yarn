@@ -1,9 +1,9 @@
-FROM alpine:3.7
+FROM alpine:3.8
 
 ARG BUILD_DATE
 ARG VCS_REF
 
-ENV YARN_VERSION=1.3.2-r0
+ENV YARN_VERSION=1.7.0-r0
 
 LABEL org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.name="Yarn" \
